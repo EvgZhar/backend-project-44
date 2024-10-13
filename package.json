@@ -1,21 +1,22 @@
 {
-  "name": "backend-project-44",
-  "version": "2.1.1",
+  "name": "@hexlet/code",
+  "version": "2.2.0",
   "description": "Brain Games tutorial project",
-  "main": "index.js",
+  "main": "./bin/brain-games.js",
   "type": "module",
   "bin": {
-    "brain-games": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js",
+    "brain-even": "bin/brain-even.js"
   },
   "dependencies": {
     "readline-sync": "^1.4.10"
   },
   "scripts": {
-    "lint": "eslint ./"
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/EvgZhar/backend-project-44"
+    "url": "git+https://github.com/EvgZhar/backend-project-44.git"
   },
   "keywords": [
     "hexlet",
@@ -27,5 +28,9 @@
     "@eslint/js": "^9.12.0",
     "eslint": "^9.12.0",
     "globals": "^15.11.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/EvgZhar/backend-project-44/issues"
+  },
+  "homepage": "https://github.com/EvgZhar/backend-project-44#readme"
 }
