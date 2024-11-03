@@ -1,6 +1,6 @@
 {
   "name": "@hexlet/code",
-  "version": "2.2.0",
+  "version": "3.0.0",
   "description": "Brain Games tutorial project",
   "main": "./bin/brain-games.js",
   "type": "module",
