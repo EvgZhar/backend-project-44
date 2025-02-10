@@ -5,9 +5,9 @@ import even from './brain-even.js';
 
 console.log('node bin/brain-games.js');
 console.log('Welcome to the Brain Games!');
-const curUserName = getUser();
-console.log(`Hello, ${curUserName}!`);
+//const curUserName = getUser();
+//console.log(`Hello, ${curUserName}!`);
 
-even(curUserName);
+//even(curUserName);
 
-setTimeout(() => { console.log("Закончили"); }, 2000);
+//setTimeout(() => { console.log("Закончили"); }, 2000);
