@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/EvgZhar/backend-project-44/issues"
   },
-  "homepage": "https://github.com/EvgZhar/backend-project-44#readme"
+  "homepage": "https://github.com/EvgZhar/backend-project-44#readme",
+  "dependencies": {
+    "node": "^23.8.0",
+    "readline-sync": "^1.4.10"
+  }
 }
