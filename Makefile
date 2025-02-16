@@ -8,3 +8,6 @@ go:
 
 mock:
 	node mocks/tryQuestionfunc
+
+lint:
+	npx eslint	
