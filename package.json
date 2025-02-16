@@ -5,7 +5,8 @@
   "description": "Hexlet projext 01: brain-games",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ./"
   },
   "repository": {
     "type": "git",
@@ -24,5 +25,10 @@
   "dependencies": {
     "node": "^23.8.0",
     "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.20.0",
+    "eslint": "^9.20.1",
+    "globals": "^15.15.0"
   }
 }
