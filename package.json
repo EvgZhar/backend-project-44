@@ -1,0 +1,23 @@
+{
+  "name": "backend-project-44",
+  "version": "1.0.0",
+  "description": "Hexlet projext 01: brain-games",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EvgZhar/backend-project-44.git"
+  },
+  "keywords": [
+    "hexlet",
+    "brain-games"
+  ],
+  "author": "Evgeni Zharkikh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EvgZhar/backend-project-44/issues"
+  },
+  "homepage": "https://github.com/EvgZhar/backend-project-44#readme"
+}
