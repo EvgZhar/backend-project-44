@@ -1,6 +1,7 @@
 {
   "name": "backend-project-44",
   "version": "1.0.0",
+  "type": "module",
   "description": "Hexlet projext 01: brain-games",
   "main": "index.js",
   "scripts": {
@@ -14,7 +15,7 @@
     "hexlet",
     "brain-games"
   ],
-  "author": "Evgeni Zharkikh",
+  "author": "Evgeniy Zharkikh",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/EvgZhar/backend-project-44/issues"
