@@ -1,30 +1,26 @@
 #!/usr/bin/env node
-import readLine from "readline-sync";
-import askName from "./src/cli.js";
+import * as client from "./src/cli.js";
 
-export const brainEven = () => {
-    const userName = askName();
-    const requiredNoOfQestions = 3;
+export const brainEven = (requiredNoOfQestions = 3) => {
+    client.welcomeUser("brain-even");
+    const userName = client.getUserName();
+    client.greetUser(userName);
+    const isEven = (number) => number % 2 === 0;
     let correctAnswers = 0;
+    console.log('Answer "yes" if the number is even, otherwise answer "no".');
     while (correctAnswers < requiredNoOfQestions) {
-        const randomNUmber = Math.round(100 * Math.random()) + 1;
-        const givenAnwser = readLine.question(`Question: ${randomNUmber} \nYour answer:`);
-        const correctAnswer = (randomNUmber % 2 === 0) ? "yes" : "no"
-        const isGivenAnswerCorrect = givenAnwser === correctAnswer;
+        const randomNUmber = client.getRandomNumber(100);
+        const givenAnwser = client.getUserAnswer(randomNUmber);
+        const expectedAnswer = isEven(randomNUmber) ? "yes" : "no"
 
-        if(isGivenAnswerCorrect) {
-        correctAnswers += 1;
-        console.log("Correct!");
+        if(client.checkAndNotifyUser(expectedAnswer, givenAnwser) === false){
+            client.cheerUser(userName);
+            return;
         }
-        else {
-        correctAnswers = 0;
-        console.log(`'${givenAnwser}' is wrong answer;(. Correcet answer was '${correctAnswer}'.`); 
-        console.log(`Let's try again, ${userName}`);
-        return false;
-        }   
+        correctAnswers += 1;
     }
-    console.log(`Congratulations, ${userName}`); 
+    client.praiseUser(userName); 
     return true;
 }
-brainEven();
+brainEven(3);
 
