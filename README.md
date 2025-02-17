@@ -12,4 +12,4 @@ See also (brain-calc): https://asciinema.org/a/BSCnXWN0Ol0iHIO6omEHOBkPp
 
 See also (brain-gcd): https://asciinema.org/a/49JVqErUnoUNyWw0UQMSJT4Rr
 
-See also (brain-progression): https://asciinema.org/a/McvV0diSX6M78Nr6SaTLshE0R
+See also (brain-progression): https://asciinema.org/a/qLdlbkrvRyWEeYAmRrpd0UStg
