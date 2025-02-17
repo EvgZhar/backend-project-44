@@ -23,13 +23,15 @@
   },
   "homepage": "https://github.com/EvgZhar/backend-project-44#readme",
   "dependencies": {
+    "mathjs": "^14.2.1",
     "node": "^23.8.0",
     "readline-sync": "^1.4.10"
   },
   "bin": {
     "brain-games": "bin/brain-games.js",
     "brain-even": "bin/games/brain-even.js",
-    "brain-calc": "bin/games/brain-calc.js"
+    "brain-calc": "bin/games/brain-calc.js",
+    "brain-gcd": "bin/games/brain-gcd.js"
   },
   "devDependencies": {
     "@eslint/js": "^9.20.0",
