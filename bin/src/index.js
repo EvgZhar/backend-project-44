@@ -8,7 +8,7 @@ export const welcomeUser = (gameName = "") => {
     console.log("Welcome to the Brain Games!");
 };
 
-export const cheerUser = (userName) => console.log(`Let's try again, ${userName}`);
+export const cheerUser = (userName) => console.log(`Let's try again, ${userName}!`);
 
 export const getUserName = () => {    
     const userName = readLine.question("May I have your name? ");
