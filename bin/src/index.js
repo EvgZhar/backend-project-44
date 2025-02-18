@@ -31,7 +31,8 @@ export const checkAndNotifyUser = (expectedAnswer, givenAnswer) => {
 export const getUserAnswer = (questionBody) => readLine.question(`Question: ${questionBody} \nYour answer:`);
 
 export const getRandomNumber = (maxVal = 1, minVal = 1) => {
-  Math.round((maxVal - minVal) * Math.random()) + minVal;
+  const retVal = Math.round((maxVal - minVal) * Math.random()) + minVal;
+  return retVal ? retVal : minVal;
 }
 
 export const runGame = (
