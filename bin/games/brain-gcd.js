@@ -1,11 +1,17 @@
 #!/usr/bin/env node
 import * as client from "../src/index.js";
-import {gcd} from "mathjs";
+//import {gcd} from "mathjs";
+
+function NOD (x, y) {
+	if (y > x) return NOD(y, x);
+	if (!y) return x;
+	return NOD(y, x % y);
+}
 
 const prepareQuestion = () => {
     const number1 = client.getRandomNumber(100);
     const number2 = client.getRandomNumber(100);    
-    const gcdValue = gcd(number1, number2);
+    const gcdValue = NOD(number1, number2);
     
     const expressionStr = `${number1} ${number2}`;
     const expectedAnswer = gcdValue.toString();
