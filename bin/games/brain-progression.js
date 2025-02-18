@@ -13,11 +13,11 @@ const prepareQuestion = () => {
     for(let i = 1; i <= numberOfelements ; i += 1){
         nextNumber += progressionStep;
         if(i === missedElementNo){
-            expressionStr = (i === 1) ? '..' : `${expressionStr}, ..`;
+            expressionStr = (i === 1) ? '..' : `${expressionStr} ..`;
             expectedAnswer = nextNumber.toString();
         }
         else{
-            expressionStr = `${expressionStr}, ${nextNumber}`;
+            expressionStr = `${expressionStr} ${nextNumber}`;
         }        
     }
 
