@@ -3,7 +3,10 @@ import * as client from '../src/index.js';
 
 const prepareQuestion = () => {
   const isEven = (number) => number % 2 === 0;
-  const randomNumber = client.getRandomNumber(100);
+  const randomNumber = client.getRandomNumber(100, 2);
+  if(!randomNumber) {
+    randomNumber = 2;
+  }
   const expectedAnswer = isEven(randomNumber) ? 'yes' : 'no';
   return [randomNumber, expectedAnswer];
 };
