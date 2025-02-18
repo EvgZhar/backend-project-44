@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import * as client from "../src/index.js";
+import * as client from '../src/index.js';
 
 const prepareQuestion = () => {
   const operator = client.getRandomNumber(3);
@@ -17,10 +17,6 @@ const prepareQuestion = () => {
   }
 };
 const rungame = () => {
-  client.runGame(
-    "brain-calc",
-    "What is the result of the expression?",
-    prepareQuestion
-  );
+  client.runGame('brain-calc', 'What is the result of the expression?', prepareQuestion);
 };
 rungame();

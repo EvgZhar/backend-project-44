@@ -16,11 +16,7 @@ const prepareQuestion = () => {
 };
 
 const rungame = () => {
-  client.runGame(
-    'brain-prime',
-    'Answer "yes" if given number is prime. Otherwise answer "no".',
-    prepareQuestion
-  );
+  client.runGame('brain-prime', 'Answer "yes" if given number is prime. Otherwise answer "no".', prepareQuestion);
 };
 
 rungame();

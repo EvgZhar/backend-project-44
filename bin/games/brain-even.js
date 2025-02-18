@@ -9,11 +9,7 @@ const prepareQuestion = () => {
 };
 
 const rungame = () => {
-  client.runGame(
-    'brain-even',
-    'Answer "yes" if the number is even, otherwise answer "no".',
-    prepareQuestion
-  );
+  client.runGame('brain-even', 'Answer "yes" if the number is even, otherwise answer "no".', prepareQuestion);
 };
 
 rungame();

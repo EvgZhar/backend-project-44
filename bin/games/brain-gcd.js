@@ -1,6 +1,5 @@
 #!/usr/bin/env node
 import * as client from '../src/index.js';
-//import {gcd} from 'mathjs';
 
 function NOD(x, y) {
   if (y > x) return NOD(y, x);
@@ -19,11 +18,7 @@ const prepareQuestion = () => {
 };
 
 const rungame = () => {
-  client.runGame(
-    'brain-gcd',
-    'Find the greatest common divisor of given numbers.',
-    prepareQuestion
-  );
+  client.runGame('brain-gcd', 'Find the greatest common divisor of given numbers.', prepareQuestion);
 };
 
 rungame();

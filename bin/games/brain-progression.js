@@ -24,11 +24,7 @@ const prepareQuestion = () => {
 };
 
 const rungame = () => {
-  client.runGame(
-    'brain-progression',
-    'What number is missing in the progression?.',
-    prepareQuestion
-  );
+  client.runGame('brain-progression', 'What number is missing in the progression?.', prepareQuestion);
 };
 
 rungame();
