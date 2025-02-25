@@ -1,6 +1,6 @@
 # Makefile
 install:
-	npm ci
+	npm install --production
 
 brain-games:
 	node bin/brain-games
