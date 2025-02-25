@@ -1,24 +1,24 @@
-# Учебный проект Brain-games
+# Brain-games tutorial project
 
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/EvgZhar/backend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/EvgZhar/backend-project-44/actions)
 ### CodeClimate was rude to me:(
 [![Maintainability](https://api.codeclimate.com/v1/badges/2eb8ba0d056e3b52f34a/maintainability)](https://codeclimate.com/github/EvgZhar/backend-project-44/maintainability)
 
-# Обзор проекта
-Реализованы 5 простых игр, где участнику предлагантся сначала представитьься, потом ему задаются простенькие математически задания и предлагается ответить на вопросы. Для победы в игре необходить правильно ответить на 3 вопроса. Ниже даты примеры по каждой из игр
-# Установка приложения
- - Установите NodeJs версии 12 или выше, менеджер пакетов npm
- - Клонируйте репозиторий в локальную директорию ``git clone https://github.com/EvgZhar/backend-project-44.git``
- - Перейдите в директорию проекта ``cd backend-project-44``
- - Разверните проект командой ``make install`` в терминале
- - Запустите игру, введя наименование в терминале:
-   - brain-even - "Четное - нечетное"
-   - brain-calc - "Вычисления в уме"
-   - brain-gcd - "Наибольший общий делитель"
-   - brain-progression - "Недостающий член прогрессии"\
-   - brain-prime - "Простые числа"
-# Примеры прохождения игр
+# Overview
+This contains 5 simple games where the player is proposed with simple math tasks. To win, you need to give 3 correct answer in a row. See the game samples here below
+# Installation guide
+ - Install `NodeJs` version 12 or higher, `npm` and `make`
+ - Clone the repository spicifiyng `git clone https://github.com/EvgZhar/backend-project-44.git`
+ - Get in the project folder `cd backend-project-44`
+ - Install the project specifying `make install` in a terminal window
+ - Launch a game spicifying its name:
+   - brain-even - "Even-odd"
+   - brain-calc - "Calculus"
+   - brain-gcd - "Find a greatest common devisor"
+   - brain-progression - "Find a missing progression member"
+   - brain-prime - "prime numbers"
+# Game samples
 See demo (brain-even):
 [![asciicast](https://asciinema.org/a/aTdGDnUSzlZRu1RVEXSoB7tMq.svg)](https://asciinema.org/a/aTdGDnUSzlZRu1RVEXSoB7tMq)
 
