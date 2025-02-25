@@ -1,6 +1,7 @@
 # Makefile
 install:
 	npm install --production
+	npm link
 
 brain-games:
 	node bin/brain-games
