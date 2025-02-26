@@ -12,5 +12,5 @@ const prepareQuestion = () => {
 };
 
 export default () => {
-  runGame('Answer "yes" if the number is even, otherwise answer "no".',prepareQuestion);
+  runGame('Answer "yes" if the number is even, otherwise answer "no".', prepareQuestion);
 };

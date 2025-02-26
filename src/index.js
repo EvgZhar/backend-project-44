@@ -11,9 +11,7 @@ export default (questionTitle, prepareQuestionFunc) => {
   console.log(questionTitle);
   while (correctAnswers < requiredNoOfQestions) {
     const [expressionStr, expectedAnswer] = prepareQuestionFunc();
-    const givenAnwser = readLine.question(
-      `Question: ${expressionStr} \nYour answer:`
-    );
+    const givenAnwser = readLine.question(`Question: ${expressionStr} \nYour answer:`);
     if (!utils.checkAndNotifyUser(expectedAnswer, givenAnwser)) {
       console.log(`Let's try again, ${userName}!`);
       return;

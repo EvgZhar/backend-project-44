@@ -1,11 +1,11 @@
 export const checkAndNotifyUser = (expectedAnswer, givenAnswer) => {
   if (expectedAnswer !== givenAnswer) {
     console.log(
-      `'${givenAnswer}' is wrong answer;(. Correct answer was '${expectedAnswer}'.`
+      `'${givenAnswer}' is wrong answer;(. Correct answer was '${expectedAnswer}'.`,
     );
     return false;
   }
-  console.log("Correct!");
+  console.log('Correct!');
   return true;
 };
 
