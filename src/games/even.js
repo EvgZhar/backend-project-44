@@ -1,9 +1,9 @@
-import runGame from '../src/index.js';
-import getRandomNumber from '../src/utils.js';
+import runGame from '../index.js';
+import * as utils from '../utils.js';
 
 const prepareQuestion = () => {
   const isEven = (number) => number % 2 === 0;
-  let randomNumber = getRandomNumber(100, 2);
+  let randomNumber = utils.getRandomNumber(100, 2);
   if (!randomNumber) {
     randomNumber = 2;
   }

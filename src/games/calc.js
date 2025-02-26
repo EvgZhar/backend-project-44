@@ -1,10 +1,10 @@
-import runGame from '../src/index.js';
-import getRandomNumber from '../src/utils.js';
+import runGame from '../index.js';
+import * as utils from '../utils.js';
 
 const prepareQuestion = () => {
-  const operator = getRandomNumber(3);
-  const operand1 = getRandomNumber(40);
-  const operand2 = getRandomNumber(40);
+  const operator = utils.getRandomNumber(3);
+  const operand1 = utils.getRandomNumber(40);
+  const operand2 = utils.getRandomNumber(40);
   switch (operator) {
     case 1: //+
       return [`${operand1} + ${operand2}`, (operand1 + operand2).toString()];

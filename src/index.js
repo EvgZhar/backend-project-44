@@ -1,5 +1,5 @@
 import readLine from 'readline-sync';
-import checkAndNotifyUser from 'utils.js';
+import * as utils from './utils.js';
 
 export default (questionTitle, prepareQuestionFunc) => {
   console.log('Welcome to the Brain Games!');
@@ -14,7 +14,7 @@ export default (questionTitle, prepareQuestionFunc) => {
     const givenAnwser = readLine.question(
       `Question: ${expressionStr} \nYour answer:`
     );
-    if (!checkAndNotifyUser(expectedAnswer, givenAnwser)) {
+    if (!utils.checkAndNotifyUser(expectedAnswer, givenAnwser)) {
       console.log(`Let's try again, ${userName}!`);
       return;
     }
