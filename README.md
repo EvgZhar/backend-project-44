@@ -9,7 +9,7 @@
 This contains 5 simple games where the player is proposed with simple math tasks. To win, you need to give 3 correct answer in a row. See the game samples here below
 # Installation guide
  - Install `NodeJs` version 12 or higher, `npm` and `make`
- - Clone the repository spicifiyng `git clone https://github.com/EvgZhar/backend-project-44.git`
+ - Clone the repository specifiyng `git clone https://github.com/EvgZhar/backend-project-44.git`
  - Get in the project folder `cd backend-project-44`
  - Install the project specifying `make install` in a terminal window
  - Launch a game spicifying its name:
@@ -17,19 +17,19 @@ This contains 5 simple games where the player is proposed with simple math tasks
    - brain-calc - "Calculus"
    - brain-gcd - "Find a greatest common devisor"
    - brain-progression - "Find a missing progression member"
-   - brain-prime - "prime numbers"
+   - brain-prime - "Prime numbers"
 # Game samples
-See demo (brain-even):
+brain-even:
 [![asciicast](https://asciinema.org/a/aTdGDnUSzlZRu1RVEXSoB7tMq.svg)](https://asciinema.org/a/aTdGDnUSzlZRu1RVEXSoB7tMq)
 
-See demo (brain-calc):
+brain-calc:
 [![asciicast](https://asciinema.org/a/BSCnXWN0Ol0iHIO6omEHOBkPp.svg)](https://asciinema.org/a/BSCnXWN0Ol0iHIO6omEHOBkPp)
 
-See demo (brain-gcd): 
+brain-gcd: 
 [![asciicast](https://asciinema.org/a/49JVqErUnoUNyWw0UQMSJT4Rr.svg)](https://asciinema.org/a/49JVqErUnoUNyWw0UQMSJT4Rr)
 
-See demo (brain-progression): 
+brain-progression: 
 [![asciicast](https://asciinema.org/a/qLdlbkrvRyWEeYAmRrpd0UStg.svg)](https://asciinema.org/a/qLdlbkrvRyWEeYAmRrpd0UStg)
 
-See demo (brain-prime):
+brain-prime:
 [![asciicast](https://asciinema.org/a/tlqKiDgrX1rgDU8JMeYP3e4JD.svg)](https://asciinema.org/a/tlqKiDgrX1rgDU8JMeYP3e4JD)
