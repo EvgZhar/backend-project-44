@@ -15,7 +15,7 @@ This contains 5 simple games where the player is proposed with simple math tasks
  - Launch a game specifying its name:
    - brain-even - "Even-odd"
    - brain-calc - "Calculus"
-   - brain-gcd - "Find a greatest common devisor"
+   - brain-gcd - "Find a greatest common divisor"
    - brain-progression - "Find a missing progression member"
    - brain-prime - "Prime numbers"
 # Game samples
