@@ -12,7 +12,7 @@ This contains 5 simple games where the player is proposed with simple math tasks
  - Clone the repository specifiyng `git clone https://github.com/EvgZhar/backend-project-44.git`
  - Get in the project folder `cd backend-project-44`
  - Install the project specifying `make install` in a terminal window
- - Launch a game spicifying its name:
+ - Launch a game specifying its name:
    - brain-even - "Even-odd"
    - brain-calc - "Calculus"
    - brain-gcd - "Find a greatest common devisor"
